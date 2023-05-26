@@ -1,0 +1,76 @@
+*{
+background-color:goldenrod;
+font-style:oblique;
+}
+h1{
+    background-color:lightcoral;
+    font-size:30px;
+    font-weight: bold;
+    text-align:center;
+    text-shadow: rgb(25, 25, 112);
+}
+h2,h3{
+    color:cyan;
+    font-size: 20px;
+    font-weight:bold;
+    background-color: rgb(184, 11, 132);
+    font-style: italic;
+  }
+  p,ol,ul{
+      font-weight: bolder;
+      color:rgb(32, 71, 178);
+
+  }
+  a[href="https://www.Google.com"]{
+      color:rgb(50, 130, 205);
+      font-weight: bold;
+  }
+  a[href="https://www.youtube.com"]{
+    color:rgb(50, 130, 205);
+    font-weight: bold;
+}
+a[href="https://www.facebook.com"]{
+    color:rgb(50, 130, 205);
+    font-weight: bold;
+}
+.special{
+   color:rgb(255, 0, 98);
+   text-decoration:underline;
+}
+h2.my{
+    text-align:center;
+}
+h3#new{
+    background-color:rgb(32, 71, 178);
+    color:peru;
+    text-align:center;
+}
+a:hover {
+text-decoration-style:none;
+color:sienna;
+}
+h2+h3{
+    background-color:cornflowerblue;
+}
+li[class~="a"]{
+    color:rgb(180, 17, 17);
+}
+ul li{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image:none;
+}
+table,th,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+th,td{
+    padding:10px;
+}
+th{
+    background-color:crimson;
+}
+td{
+    background-color: coral;
+}
